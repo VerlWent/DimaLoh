@@ -1,0 +1,38 @@
+﻿<Window x:Class="DemoExm2024.Windows.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoExm2024.Windows"
+        mc:Ignorable="d"
+        Title="RegisterWindow" Height="700" Width="800">
+    <Grid>
+        <StackPanel >
+            <TextBlock Text="Регистрация" HorizontalAlignment="Center" FontSize="35" Margin="10"></TextBlock>
+
+            <TextBlock Text="Логин" HorizontalAlignment="Center" FontSize="30" Margin="10"></TextBlock>
+            <TextBox Margin="20,0,20,0" Height="30" Background="LightGray"></TextBox>
+
+            <TextBlock Text="Пароль" HorizontalAlignment="Center" FontSize="30" Margin="10"></TextBlock>
+            <TextBox Margin="20,0,20,0" Height="30" Background="LightGray"></TextBox>
+
+            <TextBlock Text="Повтор пароля" HorizontalAlignment="Center" FontSize="30" Margin="10"></TextBlock>
+            <TextBox Margin="20,0,20,0" Height="30" Background="LightGray"></TextBox>
+
+            <TextBlock Text="Имя" HorizontalAlignment="Center" FontSize="30" Margin="10"></TextBlock>
+            <TextBox Margin="20,0,20,0" Height="30" Background="LightGray"></TextBox>
+
+            <TextBlock Text="Фамилия" HorizontalAlignment="Center" FontSize="30" Margin="10"></TextBlock>
+            <TextBox Margin="20,0,20,0" Height="30" Background="LightGray"></TextBox>
+
+            <TextBlock Text="Отчество" HorizontalAlignment="Center" FontSize="30" Margin="10"></TextBlock>
+            <TextBox Margin="20,0,20,0" Height="30" Background="LightGray"></TextBox>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="btnRegister" Content="Регистрация" Width="100" Height="50" Margin="20" Background="ForestGreen" Foreground="White" FontSize="15"></Button>
+                <Button Name="btnBack" Content="Назад" Width="100" Height="50" Margin="20" Background="DarkGray" Foreground="White" FontSize="15"></Button>
+            </StackPanel>
+            
+        </StackPanel>
+    </Grid>
+</Window>
